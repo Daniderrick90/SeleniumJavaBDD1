@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test_Attributes">
+    <classes>
+      <class name="Step1.Find_Number_Of_Items"/>
+      <class name="Step1.Cart"/>
+      <class name="Step1.AddToCart"/>
+    </classes>
+  </test> <!-- Test_Attributes -->
+</suite> <!-- Suite -->
